@@ -1,0 +1,25 @@
+/* Effet de machine à écrire */
+.typed-text {
+    font-family: "special elite", "Courier New", Courier, monospace;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+   /*  animation: typing 3s steps(auto) 1s normal both, blink 0.7s step-end infinite; */
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
